@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic:wght@700&family=Neonderthaw&family=Poppins:wght@200&family=The+Nautigal&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-container{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+}
+
+.banner{
+    width: 100%;
+    height: 3%;
+    background-color: rgba(204, 190, 190, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+    font-family: 'Gentium Basic', serif;
+}
+
+
+.main-menu{
+    width: 100%;
+    height: 8%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background :cornflowerblue; */
+    padding: 0 15rem;
+    position: sticky;
+    top:0;
+    /* border-bottom: 2px solid black; */
+}
+
+.main-menu ul{
+    list-style: none;
+}
+
+.main-menu ul li{
+    display: inline-block;
+    margin: 0 1em;
+    font-weight: bolder;
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    color: rgb(70, 57, 57);
+}
+
+.main-area{
+    width: 100%;
+    height: 89%;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.main-area-text{
+    width: 50%;
+    height: 100%;
+    /* background-color: crimson; */
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    padding-left: 8rem;
+    text-align: center !important;
+}
+
+.main-area-text h1{
+    font-size: 5rem;    
+}
+
+.main-area-text h5{
+    margin-bottom: 1rem;   
+}
+
+.main-area-text h3{
+    font-size: 2rem;  
+    font-family: 'Gentium Basic', serif;
+    margin:1rem 0;
+}
+
+.main-area-text h2{
+    font-size: 4rem;  
+    font-weight: bolder;  
+    font-family: 'The Nautigal', cursive;
+    margin:1rem 0;
+
+}
+
+.main-area-text h4{
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
+.main-area-image{
+    width: 50%;
+    height: 100%;
+    /* background-color: cyan; */
+    outline: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-area-image img{
+    width: 80%;
+    height: 80%;
+    /* border: 1px solid black; */
+    margin-top: 4rem;
+}
+
+
+.page-2{
+    width: 100vw;
+    height: auto;
+    background:linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+    padding: 0 15rem;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.page-2 h1{
+    height: 8%;
+    display: flex;
+    align-items: center; 
+    padding-top: 2rem;
+    margin-bottom: 2%;
+}
+
+.display-items{
+    width: 100%;
+    height: 42vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin: .5rem 0;
+   
+}
+
+.display-items a{
+    width: 30%;
+    height: 100%;
+    text-decoration: none;
+    color:rgb(70, 57, 57);
+    font-weight: bold;
+}
+
+.display-items a:hover{
+    color: black;
+}
+
+.display-items img{
+    height: 70%;
+}
+
+.display-items .card-body{
+    background-color: rgb(198, 201, 207);
+    height: 30%;
+}
+
+.display-items .card{
+    height: 100% !important;
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+/* .bgoverlay{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100rem;
+    height: 40rem;
+    transform: translate(-50%,-50%);
+    background: rgb(230, 217, 217);
+    opacity: .2;
+    border: 1px solid black;
+}
+
+.bgimage{
+    width: 100%;
+    height: 100%;
+    background-image: url("assests/mainbg4.jpg");
+    background-size: 100% 100%;
+    opacity: .2;
+} */
