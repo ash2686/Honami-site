@@ -45,7 +45,8 @@
     background-color: rgb(39, 39, 48,.8);
 }
 
-.logo h1{
+.logo h1 a{
+    text-decoration: none;
     color: rgb(198, 201, 207);
 }
 .main-menu ul{
