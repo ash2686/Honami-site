@@ -192,10 +192,7 @@
     border: 1px solid black;
 }
 
-/* .contact-page{
-    margin: 5rem 0;
-} */
-/* ********************************************************************************************************************* */
+/* *********************************************  Media Queries  ************************************************************************ */
 
 @media only screen and (max-width: 450px) {
     .main-menu{
@@ -241,6 +238,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        /* margin-top: 5rem; */
     }
 
     .main-area-text{
@@ -361,3 +359,9 @@
     background : red;
    
 } */
+
+@media only screen and (max-width: 450px){
+    .main-area{
+        margin-top: 2rem;
+    }
+}
