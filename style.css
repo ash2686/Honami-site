@@ -50,7 +50,9 @@
 }
 .main-menu ul{
     list-style: none;
-    margin-top: 1rem;
+    margin:0;
+    padding: 0;
+    /* margin-top: 1rem; */
 }
 
 .main-menu ul li{
@@ -192,7 +194,7 @@
 /* .contact-page{
     margin: 5rem 0;
 } */
-
+/* ********************************************************************************************************************* */
 
 @media only screen and (max-width: 450px) {
     .main-menu{
@@ -202,8 +204,16 @@
         margin-bottom: 2rem;
     }
 
+    .main-menu ul{
+        list-style: none;
+        /* margin-top: 1rem; */
+        background-color: red;
+    }
+    
+
     .logo h1{
         font-size: 1rem;
+        background-color: red;
     }
 
     .main-menu ul{
@@ -219,8 +229,8 @@
     
     .main-menu ul li a{
         text-decoration: none;
-        color: rgb(70, 57, 57);
-    }
+        color: rgb(198, 201, 207);
+        }
 
     .main-area{
         width: 100%;
