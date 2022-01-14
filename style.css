@@ -360,7 +360,7 @@
    
 } */
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 390px){
     .main-area{
         margin-top: 2rem;
     }
