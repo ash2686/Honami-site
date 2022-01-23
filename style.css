@@ -7,12 +7,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* body,html{
-    width: 100vw;
-    height: auto;
-} */
-
 .main-container{
+    box-sizing: border-box;
     width: 100%;
     height: auto;
     background:linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
@@ -76,6 +72,7 @@
 }
 
 .main-area-text{
+    box-sizing: border-box;
     width: 50%;
     height: 100%;
     /* background-color: crimson; */
@@ -85,7 +82,7 @@
     justify-content: center;
     align-items: center;
     font-weight: bolder;
-    padding-left: 8rem;
+    /* padding-left: 8rem; */
     text-align: center !important;
 }
 
@@ -135,7 +132,7 @@
 
 
 .page-2{
-    width: 100vw;
+    width: 100%;
     height: auto;
     background:linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
     padding: 0 15rem;   
@@ -221,7 +218,7 @@
         display: inline-block;
         margin: 0 .5em;
         font-weight: bolder;
-        font-size: .7rem;
+        font-size: .6rem;
     }
     
     .main-menu ul li a{
