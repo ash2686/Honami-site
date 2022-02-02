@@ -73,6 +73,11 @@
     margin-top:4rem;
 }
 
+.main-slider{
+    border: 10px solid rgb(39, 39, 48,.8);
+    border-radius: 10px;
+}
+
 .page-2{
     width: 100%;
     height: auto;
@@ -267,8 +272,6 @@
     .main-area-image img{
         width: 80%;
         height: 80%;
-        /* border: 1px solid black; */
-        /* margin-bottom: 2rem; */
     }
 
     .page-2{
