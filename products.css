@@ -75,6 +75,7 @@
 
 .main-slider{
     border: 10px solid rgb(39, 39, 48,.8);
+    background-color: rgb(39, 39, 48,.8);
     border-radius: 10px;
 }
 
@@ -139,6 +140,14 @@
 .display-items .card p{
     font-weight: bolder;
     font-family: 'Domine', serif;
+}
+
+.para-block{
+    /* background:linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%); */
+    /* background:linear-gradient(90deg, rgba(76, 175, 80, 1) 0%, rgba(49, 220, 255, 1) 100%); */
+    /* background:radial-gradient(ellipse at 50% 50%, rgba(130, 231, 238, 1) 1%, rgba(3, 81, 244, 1) 25%, rgba(0, 188, 212, 1) 50%, rgba(59, 157, 255, 1) 75%, rgba(20, 0, 255, 1) 100%); */
+    background:conic-gradient(from 90deg at 87% 29%, rgba(130, 231, 238, 1) 1%, rgba(3, 81, 244, 1) 25%, rgba(0, 188, 212, 1) 50%, rgba(59, 157, 255, 1) 75%, rgba(0, 247, 255, 1) 99%);
+
 }
 
 .display-items .pic-display{
